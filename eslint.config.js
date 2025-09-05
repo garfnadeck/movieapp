@@ -13,8 +13,10 @@ module.exports = defineConfig([
     plugins: {
       prettier: eslintPluginPrettier,
     },
+    files: ["*.config.js", "metro.config.js"],
     rules: {
       "prettier/prettier": "error",
+      "@typescript-eslint/no-require-imports": "off",
     },
     ignores: ["dist/*"],
   },

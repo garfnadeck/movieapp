@@ -4,6 +4,7 @@ import { ImageBackground, Image, Text, View } from "react-native";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function TabIcon({ focused, icon, title }: any) {
   if (focused) {
     return (
