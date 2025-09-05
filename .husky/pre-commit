@@ -1,0 +1,5 @@
+echo "🔍 Rodando ESLint com auto-fix..."
+npx eslint . --ext .js,.jsx,.ts,.tsx --fix
+
+echo "✨ Rodando Prettier com auto-fix..."
+npx prettier --write "**/*.{js,jsx,ts,tsx,json,css,md}"
